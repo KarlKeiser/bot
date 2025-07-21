@@ -2,6 +2,7 @@ import time
 import hmac
 import hashlib
 import requests
+import base64
 from urllib.parse import urlencode
 from config import KRAKEN_API_KEY, KRAKEN_API_SECRET
 
